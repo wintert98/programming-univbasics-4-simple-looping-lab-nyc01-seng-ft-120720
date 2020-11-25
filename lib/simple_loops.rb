@@ -28,6 +28,7 @@ def return_string_array(array)
   new_arr = []
   while counter < array.length
   new_arr << array[counter].to_s
-  return new_arr
+  counter += 1
   end
+  return new_arr
 end
